@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #023047;
+    --secondary-color: #dedbd2;
+    --accent1-color: #edf2f4;
+    --accent2-color: #0a2463;
+}
+
+
+h1 {
+    color: var(--primary-color);
+    position: absolute;
+    text-align: center;
+}
+
+
+h2{
+    color: var(--accent2-color);
+    text-align: center;
+
+}
+
+
+p {
+    background-color: var(--accent1-color);
+}
+
+
+nav .sociallinks a {
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+    }
+
+.sociallinks img {
+    width: 24px;
+    height: auto;
+
+}    
+
+footer {
+    text-align: center;
+}
+
+article img {
+    float: right;
+    display: inline;  
+  
+      }
+      
+
+   .hero    {
+       display: block;
+       position: relative;
+       background-image: url(/wwr/images/rafting-people.jpg);
+       background-position: center;
+       width: 100%;
+       height: auto;
+       background-size: cover;
+              
+    }
+
+    .hero h1 {
+        position:absolute;
+        background-color: var(--secondary-color);
+        display: inline-block;
+        text-align: center;
+    }
+
+
+   .hero article {
+        position:absolute;
+        background-color:  var(--secondary-color);
+   }      
+
+    
+ 
+    
+ 
+    
+  
