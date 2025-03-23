@@ -54,14 +54,16 @@ footer {
 
       
     
-      
+    .hero img {
+        display: block;
+        background-repeat: no-repeat;
+    }  
 
      
      
     .hero  {
         background-size: cover;
         position: relative;
-        background-repeat: no-repeat;
         background-position: center;
         background-image: url(/wwr/images/rafting-people.jpg);
        
