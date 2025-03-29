@@ -15,7 +15,8 @@ header nav a  {
 
     list-style-type: style none;
     color: #fff;
-   
+    font-size: larger;
+    font: bold;
     
 
 }
@@ -79,21 +80,47 @@ p {
 }
 
 
+
+
+.sociallinks {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    gap: 10px;
+  
+}
+
+
 nav .sociallinks a {
     text-decoration: none;
-    display: inline-block;
-    text-align:center;
+   
     }
 
 .sociallinks img {
     width: 24px;
     height: auto;
+    display:flex;
+    justify-content: flex-end;
+    gap:10px;
+
+
 
 }    
 
+
 footer {
+   
     text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;  
+
+    
 }
+
+
 
 
       
