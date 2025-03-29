@@ -13,7 +13,7 @@ header {
 
 header nav a  {
 
-    list-style-type: style none;
+    text-decoration: none;
     color: #fff;
     font-size: larger;
     font: bold;
@@ -173,7 +173,7 @@ footer p {
         max-width: 700px;
         border-radius: 5px;
         z-index: 5;
-        opacity: 2;
+    
         margin-left: 0%;
         margin: 0;
         
@@ -203,7 +203,7 @@ footer p {
    section img {
     margin: 20px auto;
     align-items: center;
-    size: auto;
+    
     
    }
 
