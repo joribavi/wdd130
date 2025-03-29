@@ -115,13 +115,19 @@ footer {
     align-items: center;
     justify-content: right;
     padding: 10px;
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-columns: 1fr  1fr; 
+    margin-left: 500px; 
 
     
 }
 
 
+footer p { 
 
+    background-color: white;
+    margin: 0 auto;
+    
+}
 
       
     
