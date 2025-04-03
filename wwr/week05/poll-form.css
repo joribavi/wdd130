@@ -19,10 +19,12 @@ header {
 }
 
 h1 {
-    color: rgba(10, 41, 41, 0.774);
+    color: rgba(5, 5, 5, 0.774);
     text-align: center;
     font-size:x-large;
     margin: 20px;
+    margin-left: 350px;
+    align-items: center;
 
 }
 
@@ -99,4 +101,16 @@ footer {
 
 .form-item {
     display: grid;
+    align-items: center;
+    width: auto;
+}
+
+.column-1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+
+.column-2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px;
 }
