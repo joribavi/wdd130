@@ -268,13 +268,14 @@ footer p {
 
  button {
     width: 144px;
-    margin: 32px;
+    
     background-color: var(--primary-color);
     color:whitesmoke;
     border: 10px;
     border-radius: 0.2rem;
     padding: 0.50rem;
     font-size: large;
+    display: block;
     
  }
 
@@ -348,3 +349,8 @@ form textarea {
     background-color: white;
 }
 
+fieldset {
+    display: grid;
+    border: none;
+    padding: 2px;
+}
