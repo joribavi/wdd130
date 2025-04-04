@@ -326,11 +326,16 @@ form textarea {
     
 }
 
-#wireframe a {
-    text-align: center;
-    margin: 0 auto;
-}
+#wireframe {
 
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    text-decoration: none;
+    padding: 2%;
+
+
+}    
 
 .company-info {
 
@@ -342,3 +347,4 @@ form textarea {
     height: 126px;
     background-color: white;
 }
+
