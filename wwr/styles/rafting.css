@@ -345,6 +345,7 @@ form textarea {
     margin: 2rem auto;
     text-decoration: none;
     padding: 2%;
+    color: var(--accent2-color);
 
 
 }    
