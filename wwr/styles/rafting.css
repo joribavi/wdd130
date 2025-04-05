@@ -245,6 +245,7 @@ footer p {
     border: 2px solid rgba(10, 41, 41, 0.774);
     flex: 1;
     max-width: 50%;
+    
 
    
     
@@ -258,13 +259,19 @@ footer p {
     
     padding: 10px;
     border-radius: 1%;
+    background-color: var(--accent1-color);
+  
    
  }
 
  .subject {
     display: flex;
     flex-direction: column;
+    align-items: justify;
+
  }
+
+ 
 
  button {
     width: 144px;
@@ -277,6 +284,8 @@ footer p {
     font-size: large;
     display: block;
     
+    margin: 10px auto;
+    
  }
 
  button:hover {
@@ -284,8 +293,10 @@ footer p {
 }
 
 form textarea {
-    width: 325px;
+    width: 400px;
     height: 82px;
+    font-size: larger;
+    
 }
 
 .embed-map {
@@ -349,8 +360,14 @@ form textarea {
     background-color: white;
 }
 
+
 fieldset {
     display: grid;
     border: none;
     padding: 2px;
+}
+
+#newsletter {
+
+    margin-top:20px;
 }
