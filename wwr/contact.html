@@ -104,23 +104,34 @@
             <fieldset>
                 <div class="subject">
                 <h4>Subject</h4>
-                    <input type="radio" id="General Inquiry" name="General Inquiry" value="General Inquiry">
+                  <div >
+                    <input type="radio" id="General Inquiry" name="subject" value="General Inquiry">
+                                 
                     <label for="General Inquiry">General Inquiry</label>
-                    <input type="radio" id="Reservation Question" name="Reservation Question" value="Reservation Question">
+                  </div>  
+                  <div>
+                    <input type="radio" id="Reservation Question" name="subject" value="Reservation Question">
                     <label for="Reservation Question">Reservation Question</label>
-                    <input type="radio" id="Website Suggestion" name="Website Suggestion" value="Website Suggestion">                
+                  </div>    
+                  <div>
+                    <input type="radio" id="Website Suggestion" name="subject" value="Website Suggestion">                
                     <label for="Website Suggestion">Website Suggestion</label>
+                  </div>    
                 </div>
 
                 
             </fieldset> <br></br>
-
+            
             <label for="message"> Message</label>
+            <br></br>
+            
             <textarea id="message" name="message" rows="4" placeholder="I would like more information about Rafting"></textarea> 
-            <label for="newsletter"> Please subscribe me to the monthly newsletter</label>  
+            
+            <label for="newsletter"> Please subscribe me to the monthly newsletter</label> 
+           
             <input type="checkbox" id="newsletter" name="newsletter" >  
             <button type="submit">Submit</button>
-
+        
         </form>
       </div> 
         
