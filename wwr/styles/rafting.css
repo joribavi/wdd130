@@ -244,9 +244,9 @@ footer p {
 
     border: 2px solid rgba(10, 41, 41, 0.774);
     flex: 1;
-    max-width: 50%;
+    max-width: 55%;
     
-
+   
    
     
  }
@@ -255,19 +255,23 @@ footer p {
     
    
     max-width: 473px;
-    height: 482;
+    height: auto;
     
     padding: 10px;
     border-radius: 1%;
     background-color: var(--accent1-color);
+   
   
    
  }
 
+
+
  .subject {
     display: flex;
     flex-direction: column;
-    align-items: justify;
+    text-align: justify;
+    
 
  }
 
@@ -296,6 +300,7 @@ form textarea {
     width: 400px;
     height: 82px;
     font-size: larger;
+    
     
 }
 
@@ -334,7 +339,7 @@ form textarea {
     width: 1200px;
     height: 482px;
     padding: 2rem;
-    
+   
     
 }
 
