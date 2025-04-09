@@ -396,3 +396,27 @@ fieldset {
     margin-top:20px;
 }
 
+.Figcaptions-home {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+ .Figcaptions-home figure { 
+    display: block; 
+    position: relative; 
+   
+  }
+  
+  .Figcaptions-home figcaption { 
+    position: absolute; 
+    background: rgba(0,0,0,0.75); 
+    color: white; 
+    padding: 10px 20px; 
+  }
+
+  .Figcaptions-home img {
+    width: 100%;
+    height: inherit;
+  }
