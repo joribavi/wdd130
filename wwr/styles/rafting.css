@@ -192,19 +192,7 @@ footer p {
        
    }
 
-   #home-title {
-    margin-top: 50px;
-    background-color: var(--primary-color);
-    opacity: 0.9;
-    
-    
-    
-   }
 
-   #home-image {
-    width: 100%;
-    clip-path: inset(0 0 20% 0);
-   }
 
 
 
@@ -424,7 +412,7 @@ fieldset {
     
 
   }
-/*trying with call to action */
+
   .call-to-action section {
 
     position: relative;
@@ -493,3 +481,30 @@ fieldset {
     max-width: 400px;
     
 }
+
+.hero-home {
+
+    position: relative;
+  
+    background-size: cover;
+
+    background-image: url('/wwr/images/home-image.jpg');
+
+    height: 400px;
+
+    margin-bottom: 30px;
+
+
+    
+  }  
+
+
+  #home-title {
+    margin-top: 50px;
+    background-color: white;
+    opacity: 0.5;
+    color: var(--accent2-color);
+    text-align: center;
+    
+    
+   }
