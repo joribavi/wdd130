@@ -505,6 +505,7 @@ fieldset {
     opacity: 0.5;
     color: var(--accent2-color);
     text-align: center;
+    max-width: 50%;
     
     
    }
