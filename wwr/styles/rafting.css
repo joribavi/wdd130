@@ -488,7 +488,7 @@ fieldset {
   
     background-size: cover;
 
-    background-image: url('/wwr/images/home-image.jpg');
+    background-image: url("/wwr/images/home-image.jpg");
 
     height: 400px;
 
