@@ -431,7 +431,7 @@ fieldset {
   
     background-size: cover;
 
-    background-image: url(/wwr/images/call-to-action-image.jpg);
+    background-image: url('/wwr/images/call-to-action-image.jpg');
 
     height: 400px;
 
