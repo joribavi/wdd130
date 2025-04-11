@@ -454,7 +454,7 @@ fieldset {
   }  
 
 
-   /*Call-to-action section Trips */
+   /*Call-to-action button for homepage and for the anchor tag on Trips Page */
 
    
 
@@ -514,6 +514,8 @@ fieldset {
     background-color: rgba(13, 31, 92, 0.39);
 }
 
+/* styling h1 and p for call to action and call to action trips */ 
+
 .call-to-action p, .call-to-action-trips h1 {
 
     display: inline;
@@ -530,6 +532,8 @@ fieldset {
     max-width: 400px;
     
 }
+
+/* styling home-image on home */
 
 .hero-home {
 
@@ -569,7 +573,7 @@ fieldset {
   
     background-size: cover;
 
-    background-image: url(/wwr/images/home-image.jpg);
+    background-image: url(/wwr/images/trips-main-image.jpg);
     height: 600px;
 
     margin-bottom: 50px;
