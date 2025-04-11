@@ -573,7 +573,7 @@ fieldset {
   
     background-size: cover;
 
-    background-image: url(/wwr/images/trips-main-image.jpg);
+    background-image: url(../images/trips-main-image.jpg);
     height: 600px;
 
     margin-bottom: 50px;
