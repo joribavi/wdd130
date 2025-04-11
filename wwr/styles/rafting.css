@@ -436,6 +436,8 @@ fieldset {
     
   }
 
+  /*Call-to-action section Homepage */
+
   .call-to-action section {
 
     position: relative;
@@ -450,6 +452,11 @@ fieldset {
 
     
   }  
+
+
+   /*Call-to-action section Trips */
+
+   
 
  .call-to-action section button, .call-to-action-trips section a {
     margin-top: 10%;
@@ -468,6 +475,8 @@ fieldset {
     text-align: center;
 
   }
+
+  /* Contact form for Contact Page */ 
 
  
   .contact-form-home  {
