@@ -658,7 +658,7 @@ fieldset {
         text-align: center;
         margin-top: 30px;
         border: black;
-        tr:nth-child(even) {background-color: #f2f2f2;}
+        tr:nth-child(even) {background-color: #c2dee9;}
       }
 
       th {
